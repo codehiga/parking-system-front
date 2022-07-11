@@ -1,0 +1,12 @@
+.menu > span {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.menu > .active {
+  background-color: rgb(155, 155, 155);
+  color: #fff;
+  border-radius: 5px;
+}
