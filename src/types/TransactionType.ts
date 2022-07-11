@@ -1,9 +1,11 @@
 
 export interface ITransaction {
-  "active" : boolean;
-  "id": string
-  "idCar": string
-  "idOwner": string
-  "checkin": Date
-  "checkout": Date
+  id : string;
+  checkin : Date;
+  checkout ?: Date;
+  idOwner : string;
+  plate : string;
+  name : string
+  tel : string;
+  active : boolean;
 }

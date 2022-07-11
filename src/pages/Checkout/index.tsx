@@ -46,8 +46,8 @@ export const Checkout = () => {
         checkoutCar &&
         <div className="flex flex-col">
           <span><b>ID:</b> {checkoutCar.id}</span>
-          <span><b>Placa:</b> {checkoutCar.idCar} </span>
-          <span><b>Checkin:</b> {checkoutCar.checkin} </span>
+          <span><b>Placa:</b> {checkoutCar.plate} </span>
+          <span><b>Checkin:</b> {checkoutCar.checkin.toString()} </span>
           <button onClick={calcular}>Calcular</button>
           <button onClick={() => checkout(checkoutCar.id)}>Fazer checkout</button>
         </div>

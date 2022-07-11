@@ -39,7 +39,7 @@ export const BookingTable = () => {
               <tr className="trBookingContent bg-slate-300 border-2" key={car.id}>
                 <td>{car.active.toString()}</td>
                 <td>{car.id}</td>
-                <td>{car.idCar}</td>
+                <td>{car.plate}</td>
                 <td>{car.idOwner}</td>
                 <td>{car.checkin.toString()}</td>
                 {

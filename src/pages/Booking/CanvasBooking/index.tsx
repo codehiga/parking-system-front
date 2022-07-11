@@ -16,7 +16,7 @@ export const CanvasBooking = () => {
       {
         parkingMap?.map((park) => (
           <div>
-            { park }
+            a
           </div>
         ))
       }
